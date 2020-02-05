@@ -1,11 +1,15 @@
 #body {
-    background-image: url();
-    background-size: 25%;
+    background-image: url(background.png);
+    background-size: 100%;
 }
 
 #body_menu {
-    background-image: url();
-    background-size: 25%;
+    background-image: url(background.png);
+    background-size: 100%;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
 }
 
 #logo {
@@ -17,11 +21,11 @@
 }
 
 #title {
-    color: #FADEDC;
+    color: #FB6107;
     text-align: center;
     padding: 10px;
     font-size: 1.5em;
-    background-color: #AAAFAA;
+    background-color: #011627;
     border-radius: 50px 50px 50px 50px;
     padding: 20px;
     max-width: 50%;
@@ -36,32 +40,32 @@
 }
 
 #game_uitleg {
-    color: #FEDCBA;
+    color: #016FB9;
     text-align: center;
     margin: 0px;
     font-size: 1.5em;
-    background-color: #ABCDEF;
+    background-color: #E03616;
     border-radius: 50px 50px 50px 50px;
     padding: 25px;
     max-width: 75%;
 }
 
 #info_makers {
-    color: purple;
+    color: #E03616;
     text-align: center;
     font-size: 1em;
-    background-color: lightgreen;
+    background-color: #016FB9;
     border-radius: 15px 15px 15px 15px;
     padding: 20px;
     max-width: 75%;
 }
 
 #play {
-    color: orange;
+    color: #FB6107;
     text-align: center;
     margin: 0px;
     font-size: 1.5em;
-    background-color: steelblue;
+    background-color: #F5BB00;
     border-radius: 50px 50px 50px 50px;
     padding: 25px;
     max-width: 10%;
@@ -70,7 +74,7 @@
 }
 
 .setting {
-    color: #00FFAA;
+    color: #F5BB00;
     font-size: 1.5em;
     padding: 25px;
 }
